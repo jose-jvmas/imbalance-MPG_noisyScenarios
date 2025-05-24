@@ -29,15 +29,11 @@ This repository contains the source code and scripts to reproduce the experiment
 > *Jose J. Valero-Mas, Carlos Penarrubia, Francisco J. Castellanos, Antonio Javier Gallego, Jorge Calvo-Zaragoza*  
 > Pattern Recognition (2025).
 
-<br/>
 This work expands the proof-of-concept one by Penarrubia et al. [^1] and proposes a series of mechanisms to palliate two limitations found <b>multilabel Prototype Generation</b> for the <b><i>k</i>-Nearest Neighbor</b> classifier:
 
 1. Addressing scenarios with <b>label-level imbalance</b>, which constitutes an inherent issue in multilabel learning.
 
 2. Mitigatin the existing <b>label-level noise</b> in the data</b> assortments.
-<br/>
-
-
 
 ## Contents
 
@@ -49,13 +45,7 @@ The repository is structured as follows:
 	- Multilabel Chen (MChen) [^3]
 	- Multilabel Reduction through Space Partitioning, version 3 (MRSP3) [^3]
 - *Metrics.py*: Class including the evaluation metrics.
-- *requirements.txt*: Python libraries to install
-
- [^1]: Penarrubia, C. ,  Valero-Mas, J. J., Gallego, A. J., & Calvo-Zaragoza, J. (2023). Addressing Class Imbalance in Multilabel Prototype Generation for k-Nearest Neighbor Classification. In: Proceedings of the 11th Iberian Conference on Pattern Recognition and Image Analysis, Alicante, Spain, June 27-30, pp. 15-27.
-
- [^2]: Ougiaroglou, S., Filippakis, P., & Evangelidis, G. (2021). Prototype generation for multi-label nearest neighbours classification. In: Proceedings of the 16th International Conference on Hybrid Artificial Intelligent Systems, Bilbao, Spain, September 22–24, pp. 172-183.
- 
- [^3]: Valero-Mas, J. J., Gallego, A. J., Alonso-Jiménez, P., & Serra, X. (2023). Multilabel Prototype Generation for data reduction in K-Nearest Neighbour classification. Pattern Recognition, 135, 109190.
+- *requirements.txt*: Python libraries required.
 
 ## How To Use
 
@@ -105,3 +95,9 @@ python Experiments.py
 This work was partially funded by the Generalitat Valenciana through projects: 
 - SmallOMR (CIAICO/2023/255).
 - MUltimodal and Self-supervised Approaches for MUsic Transcription (CIGE/2023/216).
+
+ [^1]: Penarrubia, C. ,  Valero-Mas, J. J., Gallego, A. J., & Calvo-Zaragoza, J. (2023). Addressing Class Imbalance in Multilabel Prototype Generation for k-Nearest Neighbor Classification. In: Proceedings of the 11th Iberian Conference on Pattern Recognition and Image Analysis, Alicante, Spain, June 27-30, pp. 15-27.
+
+ [^2]: Ougiaroglou, S., Filippakis, P., & Evangelidis, G. (2021). Prototype generation for multi-label nearest neighbours classification. In: Proceedings of the 16th International Conference on Hybrid Artificial Intelligent Systems, Bilbao, Spain, September 22–24, pp. 172-183.
+ 
+ [^3]: Valero-Mas, J. J., Gallego, A. J., Alonso-Jiménez, P., & Serra, X. (2023). Multilabel Prototype Generation for data reduction in K-Nearest Neighbour classification. Pattern Recognition, 135, 109190.
