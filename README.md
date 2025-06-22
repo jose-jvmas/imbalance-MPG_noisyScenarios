@@ -4,7 +4,7 @@
 
 <h1 align='center'>Insights into imbalance-aware Multilabel Prototype Generation mechanisms for <i>k</i>-Nearest Neighbor classification in noisy scenarios</h1>
 
-<h4 align='center'>Full text available <a href='' target='_blank'>soon</a>.</h4>
+<h4 align='center'>Full text available <a href='https://doi.org/10.1016/j.patcog.2025.111884' target='_blank'>here</a>.</h4>
 
 <p align='center'>
   <img src='https://img.shields.io/badge/python-3.8.18-orange' alt='Python'>
@@ -80,11 +80,14 @@ python Experiments.py
 ## Citation
 
 ```bibtex
-@article{valeromas:PR:2023,
+@article{ValeroMasPenarrubiaCastellanosGallegoCalvoZaragoza:PR:2026,
   title={Insights into imbalance-aware Multilabel Prototype Generation mechanisms for k-Nearest Neighbor classification in noisy scenarios},
   author={Valero-Mas, Jose J. and and Penarrubia, Carlos and Castellanos, Francisco J. and Gallego, Antonio Javier and Calvo-Zaragoza, Jorge},
   journal={Pattern Recognition},
-  year={2025},
+  volume = {169},
+  pages = {111884},
+  year = {2026},
+  issn = {0031-3203},
   publisher={Elsevier}
 }
 ```
